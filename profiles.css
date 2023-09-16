@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+display: flex;
+width: 100vw;
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+
+.profile-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: darkcyan;
+    padding: 2rem 4rem;
+    width: 100%;
+}
+
+.profile-cards__card{
+    display: flex;
+    align-items: flex-end;
+}
+.profile-cards__card--img{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-cards__card--info__name{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.profile-cards__card--info__role{
+    color: silver;
+}
