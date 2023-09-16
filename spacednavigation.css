@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body{
+    background-color: slategray;
+}
+
+header{
+    height: 100px;
+    background-color: darkcyan;
+    border-bottom: solid black 1px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.navigation a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: seashell;
+    letter-spacing: .2rem;
+}
+
+.navigation a:hover{
+    color: black;
+    scale: 1.2;
+}
