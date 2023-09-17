@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100vw;
+    height: 100vh;
+}
+
+.card-1{
+    background-image: url(images/2.1.jpg);
+ 
+  }
+  .card-2{
+    background-image: url(images/2.2.jpg);
+   
+  }
+  .card-3{
+    background-image: url(images/2.3.jpg);
+   
+  }
+  .card-4{
+    background-image: url(images/2.4.jpg);
+  
+  }
+
+  .card{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  } 
