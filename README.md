@@ -1,0 +1,1 @@
+Note: all images are come css layouts masterclass
